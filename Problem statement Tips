@@ -12,15 +12,25 @@
 
   . Quando si ripetono dettagli (esempio: diversi scenari prevedono il login) usare diverse credenziali e far succedere cose diverse(esempio: in un caso il login va a buon fine, in un altro fallisce, in un altro ancora il campo viene lasciato vuoto e il sistema non fa procedere)
 
+  . Se vengono utilizzate immagini negli scenari NON inserirle nel testo (riduce la leggibilità) ma alla fine
+  . Le immagini NON devono essere generiche ma devono descrivere lo scenario ed essere dettagliate
 
 - Consigli da seguire
  . Se un caso d'uso può essere instanziato da più scenari in più modi, si può usare una tabella ed indicare che "1 o più campi della tabella possono evocare il caso d'uso alternativo"
  . Negli scenari vanno aggiunte anche le parti grafico-interattive come le notifiche, i cambi di pagina, le mail mandate dal sistema 
  . All'interno di uno scenario, in un caso d'uso si può inserire il logout per rendere chiaro che l'utente ha terminato il suo ruolo
+ . Aggiungere immagini prototipo agli scenari
+
+- Requisiti funzionali template
+  RF0.0 Titolo
+  Descrizione
+  Priorità:Valore
 
 - Struttura generica
   . Situazione attuale
   . Scenari
+  . Requisiti funzionali
+
 
 - Correzioni individuate
   . Aggiungere il campo ruolo alla struttura del DB
