@@ -1,0 +1,4 @@
+ID:
+  - Niente ID nei sequence diagram: è un problema di progettazione, l'utente non lo inserisce/conosce, non viene mostrato nella UI
+  - Si risolve non mandando gli ID ai metodi, ma mandando direttamente istanze di oggetti, in questo modo i metodi sono più resilienti
+
