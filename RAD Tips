@@ -1,1 +1,5 @@
-R
+RAD
+
+in caso un caso d'uso possa essere attuato da attori diversi come si risolve?
+  1. Si crea una generalizzazione che comprende gli attori e si fa una gerarchia(a patto non si complichi troppo)
+  2. Si pongono tutte i possibili attori come scelte multiple
