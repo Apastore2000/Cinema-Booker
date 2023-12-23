@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" modified="2023-12-22T19:15:54.784Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="a3f8tDqVxP5JZmYeHCcA" version="22.1.11" type="device">
+  <diagram id="0bnCaJhIYmH88uUQy1OH" name="Pagina-1">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1f_ZKaHB7pscSewvSAbW-1" value="Biglietto validato" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1f_ZKaHB7pscSewvSAbW-2" value="Biglietto scaduto" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1f_ZKaHB7pscSewvSAbW-3" value="Biglietto utilizzabile" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1f_ZKaHB7pscSewvSAbW-4" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="635" y="160" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1f_ZKaHB7pscSewvSAbW-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;" parent="1" source="1f_ZKaHB7pscSewvSAbW-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1f_ZKaHB7pscSewvSAbW-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1f_ZKaHB7pscSewvSAbW-3" target="1f_ZKaHB7pscSewvSAbW-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="580" y="530" as="sourcePoint" />
+            <mxPoint x="740" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1f_ZKaHB7pscSewvSAbW-8" value="validatore valida biglietto" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1f_ZKaHB7pscSewvSAbW-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.0098" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1f_ZKaHB7pscSewvSAbW-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1f_ZKaHB7pscSewvSAbW-3" target="1f_ZKaHB7pscSewvSAbW-2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="690" y="510" as="sourcePoint" />
+            <mxPoint x="570" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1f_ZKaHB7pscSewvSAbW-9" value="proiezione avvenuta&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1f_ZKaHB7pscSewvSAbW-7" vertex="1" connectable="0">
+          <mxGeometry x="0.0264" y="1" relative="1" as="geometry">
+            <mxPoint x="17" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="udghgPFcTlmUsVo3WqMK-1" value="Biglietto creato" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="udghgPFcTlmUsVo3WqMK-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="udghgPFcTlmUsVo3WqMK-1" target="1f_ZKaHB7pscSewvSAbW-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="420" as="targetPoint" />
+            <mxPoint x="650" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="udghgPFcTlmUsVo3WqMK-3" value="acquisto confermato" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="udghgPFcTlmUsVo3WqMK-2">
+          <mxGeometry x="-0.2154" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="udghgPFcTlmUsVo3WqMK-4" value="Biglietto rimosso" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="udghgPFcTlmUsVo3WqMK-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="udghgPFcTlmUsVo3WqMK-1" target="udghgPFcTlmUsVo3WqMK-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="360" as="targetPoint" />
+            <mxPoint x="740" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="udghgPFcTlmUsVo3WqMK-6" value="acquisto annullato" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="udghgPFcTlmUsVo3WqMK-5">
+          <mxGeometry x="-0.0857" y="2" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="udghgPFcTlmUsVo3WqMK-7" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="275" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="udghgPFcTlmUsVo3WqMK-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="udghgPFcTlmUsVo3WqMK-4" target="udghgPFcTlmUsVo3WqMK-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="430" as="targetPoint" />
+            <mxPoint x="980" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
